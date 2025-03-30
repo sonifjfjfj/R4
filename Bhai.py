@@ -79,7 +79,7 @@ async def attack(update: Update, context: CallbackContext):
     args = context.args
 
     if str(chat_id) not in approved_ids and user_id not in approved_ids:
-        await context.bot.send_message(chat_id=chat_id, text="*⚠️ You need permission to use this bot.*", parse_mode='Markdown')
+        await context.bot.send_message(chat_id=chat_id, text="*⚠️ buy karo Rs70 pay kar k🤝.*", parse_mode='Markdown')
         return
 
     if attack_in_progress:
